@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+    <link rel="stylesheet" href="../styles.css"/>
+</head>
+<body>
+	<!-- fila de logo + nav --> 
+    <header>
+        <div class="header__content">
+         <img src="../images/logos/logo.png" alt="Mac-nifico" />
+         <nav>
+            <ul>
+                <li><a href="../Index.html">Inicio</a></li>
+                <li><a href="./catalogo.html">Catalogo</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./preguntas.html">Preguntas</a></li>
+            </ul>
+         </nav>
+        </div> 
+
+    </header>
+	
+	
+	
+	<!-- formulario de contacto -->
+	<section class="container__contacto">
+		<article class="formulario">
+			<form  action="#">
+                <label for="nombre">Nombre y apellido: </label>
+                    <input class="input" type="text" name="nombre" placeholder="Ingrese su nombre y apellido"/>
+                
+                <br/>
+
+                <label>Empresa: </label>
+                    <input class="input" type="text" placeholder="Ingrese el nombre de la empresa"/>
+                
+                <br/>
+                    
+				
+				<label  for="email">E-mail: </label>
+					<input class="input" type="email" placeholder="aaa@gmail.com" name="email"/>
+				
+                <br/>
+
+				<label class="label__consulta"for="consulta"> Consulta :</label>
+					<textarea placeholder="Ingrese su consulta"></textarea>
+				 <br>
+				
+                <label>¿Como nos conocio?</label>
+                    <select name="" id="">
+                        <option value="a">Redes Sociales</option>
+					    <option value="b">Buscadores en internet</option>
+					    <option value="c">Otros</option>
+                    </select>
+               
+                <br/>
+                <label for="" class="label__pregunta">
+                    ¿Le gustaria recibir E-mails sobre los nuevos productos y ofertas Mac-nificas? </label>
+                    
+                    <input class="input__radio" type="radio" name="option" value="si" checked/> si
+                    <input type="radio" name="option" value="no"/> no
+                
+<br/>
+			<div class="input__buttons">	
+				<input type="submit" value="Enviar"/>
+				<input type="reset" value="Borrar"/>
+            </div>    
+			</form>
+		</article>
+	</section>
+	<!-- cierre de form contacto -->
+
+	<!-- Pie de pagina  --> 
+    <footer>
+        <img src="../images/logos/logo.png" alt="Mac-nifico"/>
+
+       <div class="container__footer"> 
+        <div class="footer__nav">
+            <h3>Navegacion</h3>
+            <ul>
+                <li><a href="../Index.html">Inicio</a></li>
+                <li><a href="./catalogo.html">Catalogo</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./preguntas.html">Preguntas</a></li>
+            </ul>
+
+        </div>
+
+        <div>
+            <h3>Formas de envio</h3>
+            <ul>
+                <li><img src="../images/logos/logo-correoArgentino.png" alt=""></li>
+                <li><img src="../images/logos/logo-oca.png" alt=""></li>
+                <li><img src="../images/logos/logo-mercadoEnvios.png" alt=""></li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Contactenos</h3>
+            <ul>
+                <li><img src="../images/logos/logo-facebook.png" alt="-Facebook"><a href="https://www.facebook.com/Mac-nifico-101964198553989">Mac-nifico</a></li>
+                <li><img src="../images/logos/logo-instagram" alt="-Instagram"><a href="https://www.instagram.com/macnifico.11/">macnifico.11</a></li>
+                <li><img src="../images/logos/logo-email.png" alt="E-mail"><a href=""> macnificoo11@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+        <p> Todos los derechos reservados Mac-nifico </p>
+    
+    </footer>
+</body>
+</html>
