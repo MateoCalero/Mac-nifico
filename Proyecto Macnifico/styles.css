@@ -4,8 +4,7 @@
 }
 
 body{
-    background-color: rgba(0, 162, 255, 0.13);
-    width: 100vw;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);    width: 100vw;
     overflow-x: hidden;
     
 }
@@ -118,7 +117,7 @@ header nav ul li{
 }
 
 header nav ul li:hover{
-    background-color: rgba(79, 190, 69, 0.904);
+    background-color: rgba(85, 209, 73, 0.904);
     transform: translateY(-10px)
 }
 
@@ -175,12 +174,13 @@ header nav ul a{
     width: 400px;
     border-radius: 20px;
     box-shadow: 10px 25px 30px -15px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s, background-color 0.3s;
+    transition: all 0.4s
 }
 
 .card:hover{
     transform: translateX(-10px) translateY(-15px) scale(1.03);
-    background-color: rgba(0, 162, 255, 0.13)
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    box-shadow: 25px 25px 30px -15px rgb(0, 0, 0);
 }
 
 .card h3{
@@ -338,7 +338,7 @@ footer p{
 }
 
 .producto {
-    background-color: rgba(255, 255, 255, 0.616);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     
     text-align: center;
@@ -349,7 +349,8 @@ footer p{
 }
 
 .producto:hover{
-    background-color: rgba(0, 204, 255, 0.267);
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    box-shadow: 25px 25px 20px -15px rgb(0, 0, 0);
     transform: scale(1.1);
 }
 
@@ -371,7 +372,7 @@ footer p{
 
 
 .formulario{
-    background-color: rgba(30, 217, 241, 0.589);
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 10px 10px 30px 1px black;
@@ -468,8 +469,8 @@ label{
     border: 1px solid black;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(247, 140, 0, 0.719);
-    
+    /* background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); */
+    background-image: radial-gradient(circle 248px at center, #f19d28 0%, #d8840e 47%, #f07e14 100%);
 }
 
 .container__nosotros h2{
@@ -491,7 +492,7 @@ label{
     margin: 30px auto;
     border: 1px solid black;
     border-radius: 20px;
-    background-color: rgba(64, 202, 0, 0.562);
+    background-image: radial-gradient(circle 248px at center, #26d42e 0%, #1fbb26 47%, #21b93a 100%);
     padding: 10px;
 
 }
