@@ -4,19 +4,20 @@
 }
 
 body{
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);    width: 100vw;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    width: 100vw;
     overflow-x: hidden;
-    
+
 }
 .body__index{
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "encabezado "
     "carrusel"
     "destacados "
     "footer ";
     grid-template-columns: 1fr ;
-    grid-template-rows: 300px 400px 1fr 300px ;
+    grid-template-rows: 300px 500px 1fr 300px ;
     justify-items: center;
 }
 
@@ -25,7 +26,7 @@ body{
 .header__content{
     grid-area: encabezado;
     display: grid;
-    grid-template-columns: 0.3fr 1fr; 
+    grid-template-columns: 0.3fr 1fr;
     margin: 20px auto;
     justify-items: center;
     max-width: 1200px;
@@ -125,30 +126,36 @@ header nav ul a{
     text-decoration: none;
     color: beige;
     font-size: 20px;
-    
+
 }
-
-
 
 
 .container__carrusel{
     grid-area: carrusel;
+    max-width: 1200px;
 }
+
 .carrusel__img{
-    object-fit: cover;
-    height: 500px;
-    width: 800px;
-    
+  width: 100%;
+  height: 500px ;
+  
 }
+
+/* .carrusel__img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} */
+
 /* .carrusel{
     width: 80%;
     display: flex;
-    
-    
+    grid-area: carrusel;
+
 }
 
 .carrusel img{
-    object-fit: cover;  
+    object-fit: cover;
     width: 100%;
 
 } */
@@ -157,29 +164,27 @@ header nav ul a{
 .productosDestacados{
     grid-area: destacados;
     max-width: 1600px;
+
 }
 
 .productosDestacados h2{
-    margin-top: 50px;
+    margin:  50px 0px;
     text-align: center;
     font-size: 30px;
 }
 
 
 .container__card{
-    
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 40px;
 
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
 
 .card {
     background-color: #fff;
     padding: 20px;
-    margin:  30px 0px;
+
     width: 400px;
     border-radius: 20px;
     box-shadow: 10px 25px 30px -15px rgba(0, 0, 0, 0.5);
@@ -223,7 +228,7 @@ footer{
     width: 100%;
     height: 100%;
     grid-area: footer;
-    
+
 }
 
 .container__footer{
@@ -243,22 +248,22 @@ footer img{
     height: 50px;
     width: 150px;
     margin: 10px;
-    
-    
+
+
 }
 
 footer h3{
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgba(125, 226, 116, 0.788);
-    
+
 }
 
 footer ul{
     list-style-type: none;
     margin: 10px;
     line-height: 20px;
-    
+
 }
 
 
@@ -287,11 +292,11 @@ footer p{
 /* Catalogo */
 .body__catalogo{
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "encabezado"
     "catalogo"
     "footer ";
-    
+
 }
 
 .content__catalogo{
@@ -301,15 +306,15 @@ footer p{
     display: grid;
     grid-template-columns: 250px 1fr;
     justify-items: center;
-    
-    
+
+
 
 }
 .catalogo__filtros{
     width: 200px;
-    list-style-type: none; 
+    list-style-type: none;
     margin-left: 40px;
-    
+
 
 }
 
@@ -335,21 +340,21 @@ footer p{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    
+
 }
 
 .content__productos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    
-    
+
+
 }
 
 .producto {
     background-color: rgb(255, 255, 255);
     padding: 15px;
-    
+
     text-align: center;
     width: 250px;
     border-radius: 25px;
@@ -386,7 +391,7 @@ footer p{
     border-radius: 25px;
     box-shadow: 10px 10px 30px 1px black;
     padding: 10px;
-    
+
     max-width: 580px;
     margin: 10px auto;
 }
@@ -397,12 +402,12 @@ form{
 
 label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
     height: auto;
     width: 200px;
     margin: 15px;
     display: inline-block;
-    
+
 }
 
 .label__consulta{
@@ -417,7 +422,7 @@ label{
 
 .input__radio{
     margin-bottom: 20px;
- 
+
 }
 
 .input{
@@ -427,10 +432,10 @@ label{
 }
 
 .input__buttons{
-    
-   display: flex; 
+
+   display: flex;
    justify-content: center;
-    
+
 }
 
 .input__buttons input{
@@ -453,7 +458,7 @@ label{
 
 .formulario textarea{
     margin-top: 15px;
-    
+
     width: 250px;
     height: 100px;
 }
@@ -467,13 +472,13 @@ label{
 
 .container{
     height: 500px;
-    
-    
+
+
 }
 
 .container__nosotros{
     max-width: 1200px;
-    
+
     margin: 30px auto;
     border: 1px solid black;
     padding: 10px;
@@ -515,72 +520,67 @@ label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media (max-width: 1200px) {
+
+
+@media (max-width: 1315px) {
+    
+    .header__content{
+        grid-area: encabezado;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin: 20px auto;
+        justify-items: center;
+        max-width: 1200px;
+
+    }
+
+    
+    .productosDestacados h2{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container__card{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (max-width:1200px) {
     .body__index{
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
         "encabezado "
-        
         "destacados "
         "footer ";
         grid-template-columns: 1fr ;
         grid-template-rows: 300px  1fr 300px ;
         justify-items: center;
     }
-    .header__content{
-        grid-area: encabezado;
-        display: grid;
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(2, 1fr);
-        margin: 20px auto;
-        justify-items: center;
-        max-width: 1200px;
-    
-    }
-
-    .carrusel{
+    .container__carrusel{
         display: none;
     }
-    .productosDestacados h2{
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
 }
 
-@media (max-width: 900px){
-        
-    .body__index{
-        display: grid;
-        grid-template-areas: 
-        "encabezado "
-        "destacados "
-        "footer ";
-        grid-template-columns: 1fr ;
-        grid-template-rows: 400px  1fr 300px ;
-        justify-items: center;
+
+@media (max-width: 850px){
+
+    .container__card{
+        grid-template-columns: 1fr
     }
-    .header__content{
-        grid-area: encabezado;
-        display: grid;
-        grid-template-columns: 1fr; 
-        grid-template-rows: 0.3fr 1fr;
-        margin: 20px auto;
-        justify-items: center;
-        max-width: 1200px;
-    }
-}  
+}
 
 @media (max-width: 1480px) {
     .content__productos{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
-        
-        
+
+
     }
-    
+
 }
 
 @media (max-width: 1200px) {
@@ -596,9 +596,9 @@ label{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
-        
+
     }
-    
+
 }
 
 @media (max-width: 850px) {
@@ -609,14 +609,14 @@ label{
     .catalogo__filtros{
         display: none;
     }
-    
+
     .content__productos{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
-        
-    }
-   
 
-    
+    }
+
+
+
 }
