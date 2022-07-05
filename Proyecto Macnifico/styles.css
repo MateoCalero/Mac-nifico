@@ -12,11 +12,11 @@ body{
     display: grid;
     grid-template-areas: 
     "encabezado "
-    
+    "carrusel"
     "destacados "
     "footer ";
     grid-template-columns: 1fr ;
-    grid-template-rows: 300px  1fr 300px ;
+    grid-template-rows: 300px 400px 1fr 300px ;
     justify-items: center;
 }
 
@@ -131,11 +131,19 @@ header nav ul a{
 
 
 
-
+.container__carrusel{
+    grid-area: carrusel;
+}
+.carrusel__img{
+    object-fit: cover;
+    height: 500px;
+    width: 800px;
+    
+}
 /* .carrusel{
     width: 80%;
     display: flex;
-    grid-area: carrusel;
+    
     
 }
 
@@ -163,6 +171,7 @@ header nav ul a{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 40px;
 
     
 }
