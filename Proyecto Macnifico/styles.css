@@ -122,6 +122,10 @@ header nav ul li:hover{
     transform: translateY(-10px)
 }
 
+header nav ul li:active{
+    transform: scale(0.95);
+}
+
 header nav ul a{
     text-decoration: none;
     color: beige;
@@ -195,6 +199,10 @@ header nav ul a{
     transform: translateX(-10px) translateY(-15px) scale(1.03);
     background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
     box-shadow: 25px 25px 30px -15px rgb(0, 0, 0);
+}
+
+.card:active{
+    transform: scale(0.9);
 }
 
 .card h3{
@@ -334,6 +342,9 @@ footer p{
     background-color: rgba(0, 0, 0, 0.596);
     transform: translateX(10px) scale(1.03);
 }
+.catalogo__filtros li:active{
+    transform: scale(0.9);
+}
 
 
 .catalogo__filtros a{
@@ -359,13 +370,17 @@ footer p{
     width: 250px;
     border-radius: 25px;
     box-shadow: 17px 24px 10px -15px rgba(8, 8, 8, 0.274);
-    transition:  0.6s;
+    transition:  0.5s;
 }
 
 .producto:hover{
     background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
     box-shadow: 25px 25px 20px -15px rgb(0, 0, 0);
     transform: scale(1.1);
+}
+
+.producto:active{
+    transform: scale(0.9);
 }
 
 .producto img{
