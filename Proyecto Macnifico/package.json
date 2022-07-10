@@ -1,0 +1,22 @@
+{
+  "name": "mac-nifico",
+  "version": "1.0.0",
+  "description": "proyecto mac-nifico",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoCalero/Mac-nifico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoCalero/Mac-nifico/issues"
+  },
+  "homepage": "https://github.com/MateoCalero/Mac-nifico#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

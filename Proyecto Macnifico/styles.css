@@ -145,26 +145,7 @@ header nav ul a{
   
 }
 
-/* .carrusel__img img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-} */
-
-/* .carrusel{
-    width: 80%;
-    display: flex;
-    grid-area: carrusel;
-
-}
-
-.carrusel img{
-    object-fit: cover;
-    width: 100%;
-
-} */
-
-
+/* Productos destacados index */
 .productosDestacados{
     grid-area: destacados;
     max-width: 1600px;
