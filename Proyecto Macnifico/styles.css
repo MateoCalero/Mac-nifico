@@ -195,10 +195,8 @@ header nav ul{
 .card {
     background-color: #fff;
     padding: 20px;
-
     width: 400px;
     border-radius: 20px;
-    
     transition: all 0.4s
 }
 
@@ -233,7 +231,7 @@ header nav ul{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: 16px;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 
@@ -285,7 +283,7 @@ footer ul{
 
 }
 
-
+ 
 
 footer ul a{
     text-decoration: none;
