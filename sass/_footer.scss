@@ -1,0 +1,56 @@
+footer{
+    background-image: url(../images/fondo1.jpg);
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    grid-area: footer;
+    
+    img{
+        height: 50px;
+        width: 150px;
+        margin: 10px;
+    }
+
+    .content__footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+        img{
+            height: 25px;
+            width: auto;
+        }
+
+        h3{
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #da2828;
+        }
+
+        ul{
+            list-style-type: none;
+            padding-left: 0px;
+            line-height: 20px;
+
+            a{
+                text-decoration: none;
+                text-align: center;
+                margin-bottom: 10px;
+                color: rgb(221, 221, 221);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                transition: all 0.3s;
+
+                &:hover{
+                    color: #da2828;
+                }
+            }
+        }
+    }
+    p{
+        color: #da2828;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px;
+    }
+}

@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     
 
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
 
 </head>
 <body class="body__index">
     <!-- fila de logo + nav -->
     <header>
         <div class="header__content">
-         <a href="./index.html"><img src="./images/logos/logo.png" alt="Mac-nifico" /></a>
+         <a href="./index.html"><img src="./images/logos/logo.png" alt="Mac-nifico" class="header__content-logo" /></a>
          <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
               
@@ -24,22 +24,22 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <a class=" nav__a  " href="./assets/catalogo.html">
-                        <li class="nav-item nav__li">Catalogo</li>
+                    <a class=" navbar-nav-a  " href="./assets/catalogo.html">
+                        <li class="nav-item navbar-nav-a-li">Catalogo</li>
                     </a>
                   
                   
-                    <a class=" nav__a" href="./assets/contacto.html">
-                        <li class="nav-item nav__li">Contacto</li>
+                    <a class=" navbar-nav-a" href="./assets/contacto.html">
+                        <li class="nav-item navbar-nav-a-li">Contacto</li>
                     </a>
                   
                  
-                    <a class="nav__a" href="./assets/nosotros.html">
-                        <li class="nav-item nav__li">Nosotros</li>
+                    <a class="navbar-nav-a" href="./assets/nosotros.html">
+                        <li class="nav-item navbar-nav-a-li">Nosotros</li>
                     </a>
                   
-                    <a class="nav__a" href="./assets/preguntas.html">
-                        <li class="nav-item nav__li">Preguntas </li>
+                    <a class="navbar-nav-a" href="./assets/preguntas.html">
+                        <li class="nav-item navbar-nav-a-li">Preguntas </li>
                     </a>
                 </ul>
               </div>
@@ -54,13 +54,13 @@
     <section class="container__carrusel">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active carrusel__img">
+              <div class="carousel-item active container__carrusel-img">
                 <img src="./images/banner1.png" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item carrusel__img">
+              <div class="carousel-item container__carrusel-img">
                 <img src="./images/banner2.png " class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item carrusel__img">
+              <div class="carousel-item container__carrusel-img">
                 <img src="./images/banner3.png" class="d-block w-100" alt="...">
               </div>
             </div>
@@ -82,7 +82,7 @@
     <div  class="container__card">
        <div class="card">
         <h3>Tazas Personalizadas</h3>
-        <div class="content__img">
+        <div class="card-img">
             <img src="./images/otros/taza.png" alt="taza blanca" "/>
         </div>
         <p>Mandanos tu logo, imagen, frase o dise;o que mas te guste, nosotros nos encargamos del resto.</p>
@@ -90,35 +90,35 @@
 
         <div class="card">
             <h3>Remeras perzonalizadas</h3>
-            <div class="content__img">
+            <div class="card-img">
                 <img src="./images/remeras/remera-blanca.png" alt="remera blanca">
             </div>
             <p>Remeras personalizables en telas tanto algodon como spum, mandanos el diseño que quieras para tu remera, ya sea el logo de tu negocio o una imagen que te fascine.</p>
         </div>
         <div class="card">
             <h3>Buzos personalizados</h3>
-            <div class="content__img">
+            <div class="card-img">
                 <img src="./images/buzo-gris.png" alt="">
             </div>
             <p>Buzos personalizables 100% algodon frizados para poder pasar este frio,mandanos el diseño que quieras para tu remera, ya sea el logo de tu negocio o una imagen que te fascine.</p>
         </div>
         <div class="card">
             <h3>Pijamas personalizados</h3>
-            <div class="content__img">
+            <div class="card-img">
                 <img src="./images/pijamas/pijama-negro.png" alt="pijama negro" >
             </div>
             <p>Pijamas personalizables con las imagenes o diseño que mas le gusten a tu niña/o</p>
         </div>
         <div class="card">
             <h3>Chopp de aluminio Personalizado</h3>
-            <div class="content__img">
+            <div class="card-img">
                 <img src="./images/otros/chopp-aluminio.png" alt="chopp de aluminio" >
             </div>
             <p>Chopp de aluminio personalizado con el diseño que mas te guste.</p>
         </div>
         <div class="card">
             <h3>Jarro termico perzonalizado</h3>
-            <div class="content__img">
+            <div class="card-img">
                 <img src="./images/otros/jarro-termico.png" alt="pijama negro" >
             </div>
                 <p>Jarro termico de polimero, pedilo personalizado con el diseño que mas te guste.</p>
@@ -132,8 +132,8 @@
     <footer>
         <img src="./images/logos/logo.png" alt="Mac-nifico" />
 
-       <div class="container__footer">
-        <div class="footer__nav">
+       <div class="content__footer">
+        <div class="content__footer-nav">
             <h3>Navegacion</h3>
             <ul>
                 <li><a href="./Index.html">Inicio</a></li>
@@ -145,7 +145,7 @@
 
         </div>
 
-        <div class="footer__nav">
+        <div class="content__footer-nav">
             <h3>Formas de envio</h3>
             <ul>
                 <li><img src="./images/logos/logo-correoArgentino.png" alt=""></li>
@@ -154,7 +154,7 @@
             </ul>
         </div>
 
-        <div class="footer__nav">
+        <div class="content__footer-nav">
             <h3>Contactenos</h3>
             <ul>
                 <li><img src="./images/logos/logo-facebook.png" alt="-Facebook"><a href="https://www.facebook.com/Mac-nifico-101964198553989">Mac-nifico</a></li>
