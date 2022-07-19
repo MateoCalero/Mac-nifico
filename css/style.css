@@ -286,7 +286,7 @@ footer {
     height: 100px; }
 
 @media (max-width: 1480px) {
-  .content__productos {
+  .content__catalogo-productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px; } }
@@ -302,7 +302,7 @@ footer {
 @media (max-width: 1200px) {
   .body__index {
     display: grid;
-    grid-template-areas: "encabezado " "destacados " "footer ";
+    grid-template-areas: "encabezado" "destacados" "footer ";
     grid-template-columns: 1fr;
     grid-template-rows: 200px  1fr 300px;
     width: 100%; }
@@ -314,7 +314,7 @@ footer {
     justify-content: center; }
   .content__catalogo {
     justify-items: start; }
-  .content__productos {
+  .content__catalogo-productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px; } }
@@ -334,9 +334,9 @@ footer {
   .content__catalogo {
     justify-items: center;
     grid-template-columns: 1fr; }
-  .catalogo__filtros {
+  .content__catalogo-filtros {
     display: none; }
-  .content__productos {
+  .content__catalogo-productos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 40px; } }
