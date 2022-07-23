@@ -32,10 +32,10 @@
                 &:hover{
                     background-color: #fa4d4d;
                     box-shadow: 
-                                15px 15px 30px -15px rgba(247, 0, 0, 0.699),
-                                -15px 15px 30px -15px rgba(247, 0, 0, 0.699),
-                                15px -15px 30px -15px rgba(247, 0, 0, 0.699),
-                                -15px -15px 30px -15px rgba(247, 0, 0, 0.699);
+                                15px 15px 30px -15px $sombre-red,
+                                -15px 15px 30px -15px $sombre-red,
+                                15px -15px 30px -15px $sombre-red,
+                                -15px -15px 30px -15px $sombre-red;
                     transform: translateX(10px) scale(1.03);
                 }
 
@@ -65,12 +65,12 @@
                 transition:  0.5s;
 
                 &:hover{
-                    background-image: linear-gradient(to top, #da2828 0%, #da2828 1%, #e22d2d 26%, #e93939 48%, #ee4242 75%, #f04b4b 100%);
+                    background-image: linear-gradient(to top, $sombre-red 0%, $sombre-red 1%, #e22d2d 26%, #e93939 48%, #ee4242 75%, #f04b4b 100%);
                     box-shadow:
-                                15px 15px 20px -15px #da2828,
-                                -15px 15px 20px -15px #da2828,
-                                15px -15px 20px -15px #da2828,
-                                -15px -15px 20px -15px #da2828;
+                                15px 15px 20px -15px $sombre-red,
+                                -15px 15px 20px -15px $sombre-red,
+                                15px -15px 20px -15px $sombre-red,
+                                -15px -15px 20px -15px $sombre-red;
                     transform: scale(1.1);
                 }
 

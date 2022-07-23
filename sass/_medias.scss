@@ -66,7 +66,7 @@ header{
         grid-template-columns: repeat(2, 1fr);
         
         .navbar-toggler-icon{
-            background-color: #da2828e7;
+            background-color: $bg-red;
             border-radius: 5px;
         }
 

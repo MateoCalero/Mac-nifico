@@ -25,7 +25,7 @@ footer{
         h3{
             font-size: larger;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: #da2828;
+            color: $bg-red;
         }
 
         ul{
@@ -42,13 +42,13 @@ footer{
                 transition: all 0.3s;
 
                 &:hover{
-                    color: #da2828;
+                    color: $bg-red;
                 }
             }
         }
     }
     p{
-        color: #da2828;
+        color: $bg-red;
         text-align: center;
         font-weight: bold;
         margin: 10px;

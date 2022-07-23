@@ -227,8 +227,8 @@ footer {
         border-radius: 25px;
         transition: 0.5s; }
         .body__catalogo .content__catalogo-productos .producto:hover {
-          background-image: linear-gradient(to top, #da2828 0%, #da2828 1%, #e22d2d 26%, #e93939 48%, #ee4242 75%, #f04b4b 100%);
-          box-shadow: 15px 15px 20px -15px #da2828, -15px 15px 20px -15px #da2828, 15px -15px 20px -15px #da2828, -15px -15px 20px -15px #da2828;
+          background-image: linear-gradient(to top, rgba(247, 0, 0, 0.699) 0%, rgba(247, 0, 0, 0.699) 1%, #e22d2d 26%, #e93939 48%, #ee4242 75%, #f04b4b 100%);
+          box-shadow: 15px 15px 20px -15px rgba(247, 0, 0, 0.699), -15px 15px 20px -15px rgba(247, 0, 0, 0.699), 15px -15px 20px -15px rgba(247, 0, 0, 0.699), -15px -15px 20px -15px rgba(247, 0, 0, 0.699);
           transform: scale(1.1); }
         .body__catalogo .content__catalogo-productos .producto:active {
           transform: scale(0.9); }
@@ -318,7 +318,7 @@ footer {
   header .header__content {
     grid-template-columns: repeat(2, 1fr); }
     header .header__content .navbar-toggler-icon {
-      background-color: #da2828e7;
+      background-color: #da2828;
       border-radius: 5px; }
     header .header__content .navbar-nav {
       display: none; } }

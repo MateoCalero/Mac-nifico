@@ -101,10 +101,10 @@ header{
                     &:hover{
                         background-color: $bg-red;
                         box-shadow: 
-                                    15px 15px 30px -15px rgba(247, 0, 0, 0.699),
-                                    -15px 15px 30px -15px rgba(247, 0, 0, 0.699),
-                                    15px -15px 30px -15px rgba(247, 0, 0, 0.699),
-                                    -15px -15px 30px -15px rgba(247, 0, 0, 0.699);
+                                    15px 15px 30px -15px $sombre-red,
+                                    -15px 15px 30px -15px $sombre-red,
+                                    15px -15px 30px -15px $sombre-red,
+                                    -15px -15px 30px -15px $sombre-red;
        
                         transform: translateY(-10px)
                     }
