@@ -19,11 +19,11 @@
           }
     }
 
-    .productosDestacados{
+    .productos-destacados{
         grid-area: destacados;
         max-width: 1600px;
     
-        & h2{
+        h2{
             margin:  50px 0px;
             text-align: center;
             font-size: 30px;
