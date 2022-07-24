@@ -36,7 +36,6 @@
         "encabezado"
         "destacados"
         "footer ";
-        grid-template-columns: 1fr ;
         grid-template-rows: 200px  1fr 300px ;       
         width: 100%;
 
@@ -44,7 +43,22 @@
             display: none;
         }
     }
-    
+
+    header{
+        nav{
+            .container{
+                height: 100%;
+
+                .logo{
+                    margin-top: 0px;
+                }
+            }
+
+            #navbarNav {
+                padding-top: 0px;
+            }
+        }
+    }
 
  
     .body__catalogo{
