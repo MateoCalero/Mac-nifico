@@ -64,16 +64,7 @@
                 border-radius: 25px;
                 transition:  0.5s;
 
-                &:hover{
-                    background-image: linear-gradient(to top, $sombre-red 0%, $sombre-red 1%, #e22d2d 26%, #e93939 48%, #ee4242 75%, #f04b4b 100%);
-                    box-shadow:
-                                15px 15px 20px -15px $sombre-red,
-                                -15px 15px 20px -15px $sombre-red,
-                                15px -15px 20px -15px $sombre-red,
-                                -15px -15px 20px -15px $sombre-red;
-                    transform: scale(1.1);
-                }
-
+                
                 &:active{
                     transform: scale(0.9);
                 }

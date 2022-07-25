@@ -80,7 +80,7 @@ header{
         position: relative;
         
         .nav-item{
-            background-color: rgb(245, 127, 127);
+            background-color: #fff;
             height: 50px;
             width: 150px;
             margin: 20px 10px;
@@ -89,16 +89,7 @@ header{
             border-radius: 10px;
             transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
 
-            &:hover{
-                background-color: $bg-red;
-                box-shadow: 
-                            15px 15px 30px -15px $sombre-red,
-                            -15px 15px 30px -15px $sombre-red,
-                            15px -15px 30px -15px $sombre-red,
-                            -15px -15px 30px -15px $sombre-red;
-
-                transform: translateY(-10px)
-            }
+            
 
             &:active{
                 transform: scale(0.95);

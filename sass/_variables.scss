@@ -1,3 +1,7 @@
 //colores
 $bg-red: #da2828;
 $sombre-red: rgba(247, 0, 0, 0.699);
+$gradient-green: linear-gradient(to top, #00B611 0%, #00B611 1%, #16C126 26%, #25CA34 48%, #36D545 75%, #4ADC58 100%);
+$gradient-red:linear-gradient(to top, $sombre-red 0%, $sombre-red 1%, #e22d2d 26%, #e93939 48%, #ee4242 75%, #f04b4b 100%);
+$gradient-blue:linear-gradient(to top, #004BC6 0%, #004BC6 1%, #1E63D3 26%, #3273DC 48%, #4883E3 75%, #699CF0 100%);
+$gradient-orange:linear-gradient(to top, #D09E00 0%, #D09E00 1%, #D6A50E 26%, #D9AD22 48%, #DEB432 75%, #E6C14F 100%);

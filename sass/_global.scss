@@ -1,12 +1,69 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-image: linear-gradient(120deg, #000000 0%, #5a5a5a 100%);
     width: 100vw;
     overflow-x: hidden;
 
 }
 
+
+@mixin producto-hover ($fondo, $sombra) {
+
+    &:hover {
+        background-image: $fondo;
+        box-shadow:
+            15px 15px 20px -15px $sombra,
+            -15px 15px 20px -15px $sombra,
+            15px -15px 20px -15px $sombra,
+            -15px -15px 20px -15px $sombra;
+        transform: scale(1.1);
+    }
+}
+
+.-red {
+    @include producto-hover($gradient-red, $bg-red);
+}
+
+.-blue {
+    @include producto-hover($gradient-blue, blue);
+}
+
+.-orange {
+    @include producto-hover($gradient-orange, orange);
+}
+
+.-green {
+    @include producto-hover($gradient-green, green);
+}
+
+
+@mixin btn-shadow($fondo,$color) {
+
+    &:hover {
+        background-image: $fondo;
+        box-shadow:
+            15px 15px 30px -15px $color,
+            -15px 15px 30px -15px $color,
+            15px -15px 30px -15px $color,
+            -15px -15px 30px -15px $color;
+
+        transform: translateY(-10px)
+    }
+}
+
+.catalogo{
+    @include btn-shadow($gradient-red, $bg-red )
+}
+.contacto{
+    @include btn-shadow($gradient-blue, blue )
+}
+.nosotros{
+    @include btn-shadow($gradient-orange, orange )
+}
+.preguntas{
+    @include btn-shadow($gradient-green, green )
+}
