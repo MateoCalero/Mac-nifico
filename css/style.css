@@ -189,9 +189,9 @@ footer {
     width: 150px;
     margin: 10px; }
   footer .content__footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; }
     footer .content__footer img {
       height: 25px;
       width: auto; }
@@ -411,3 +411,12 @@ footer {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       gap: 40px; } }
+
+@media (max-width: 675px) {
+  footer {
+    height: 650px; }
+    footer .content__footer {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: start;
+      margin-left: 30px; } }

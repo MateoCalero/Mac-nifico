@@ -127,3 +127,15 @@ header{
     
 
 }
+
+@media (max-width:675px) {
+    footer{
+        height: 650px;
+        .content__footer{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: start;
+            margin-left: 30px;
+        }
+    }
+}

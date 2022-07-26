@@ -13,9 +13,10 @@ footer{
     }
 
     .content__footer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        
        
         img{
             height: 25px;
