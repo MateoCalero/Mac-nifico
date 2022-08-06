@@ -153,6 +153,11 @@ header{
     }
 }
 
+@media (max-width:648px){
+    .content{
+        height: 70%;
+    }
+}
 
 @media (max-width: 430px){
     .content{
